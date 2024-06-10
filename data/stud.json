@@ -1,0 +1,28 @@
+{
+   "students": [
+      {
+         "sno": 1,
+         "name": "apishaa",
+         "age": "18",
+         "add": "tuty",
+         "course": "python",
+         "duration": "2 months"
+      },
+      {
+         "sno": 2,
+         "name": "apishaa",
+         "age": "18",
+         "add": "tuty",
+         "course": "python",
+         "duration": "2 months"
+      },
+      {
+         "sno": 3,
+         "name": "karish",
+         "age": "17",
+         "add": "chennai",
+         "course": "web design",
+         "duration": "1 month"
+      }
+   ]
+}

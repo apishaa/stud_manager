@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <title>student manager</title>
+</head>
+<body>
+    <div class="container text-center mt-3 bg"><h5>WELCOME TO STUDENT MANAGER APPLICATION</h5></div>
+    
+    
+    <div class="row m-4">
+        <div class="col-lg-4">
+            <div class="card mt-4 ">
+                <div class="card-body text-center back">
+                    <div class="container">
+                        <h6 class="txt">STUDENT REGISTERATION</h6>
+                    </div>
+                    <form action="/"method="post">
+                        <input type="text" name="username" class="form-control my-3" required placeholder="enter name"  >
+                        <input type="number" name="age" class="form-control my-3" required placeholder="enter age" >
+                        <input type="text" name="add" class="form-control my-3"  required placeholder="enter address" >
+                        <select name="course" class="form-control my-3" id="">
+                            <option value="python">python</option>
+                            <option value="tally">tally</option>
+                            <option value="web design">web design</option></select>
+                        <input type="text" name="duration" class="form-control my-3" required placeholder="enter duration"> 
+                        <input type="submit" class="btn btn-success" name="register">   
+                    </form> 
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="col text-center mt-4">
+            <table class="table table-striped-columns table-dark">
+                <thead>
+                    <tr>
+                        <th>SNO</th>
+                        <th>NAME</th>
+                        <th>AGE</th>
+                        <th>ADDRESS</th>
+                        <th>COURSE</th>
+                        <th>DURATION</th>
+                        <th>ACTION</th>
+                
+                        
+                    </tr>
+                    <tbody>
+                        {%for st in stud%}
+                        <tr>
+                             <td>{{st.sno}}</td>
+                             <td>{{st.name}}</td>
+                             <td>{{st.age}}</td>
+                             <td>{{st.add}}</td>
+                             <td>{{st.course}}</td>
+                             <td>{{st.duration}}</td>
+                             <td colspan="2"><button class="btn btn-warning"><i class="fa-solid fa-square-pen"></i></button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-eraser"></i></button></td>
+
+
+                        </tr>
+                        {%endfor%}
+                    </tbody>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/1e8def2d84.js" crossorigin="anonymous"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
