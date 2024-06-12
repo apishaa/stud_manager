@@ -10,19 +10,27 @@
       },
       {
          "sno": 2,
-         "name": "apishaa",
-         "age": "18",
-         "add": "tuty",
-         "course": "python",
-         "duration": "2 months"
+         "name": "sam",
+         "age": "21",
+         "add": "chennai",
+         "course": "tally",
+         "duration": "1 month"
       },
       {
          "sno": 3,
          "name": "karish",
-         "age": "17",
-         "add": "chennai",
+         "age": "19",
+         "add": "tuty",
          "course": "web design",
-         "duration": "1 month"
+         "duration": "2 months"
+      },
+      {
+         "sno": 4,
+         "name": "apishaa",
+         "age": "18",
+         "add": "tuty",
+         "course": "tally",
+         "duration": "2 months"
       }
    ]
 }
