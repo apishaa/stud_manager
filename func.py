@@ -29,6 +29,24 @@ def delete_stud(id):
             i+=1
         write_json(data)
         return name
+    
+    
+def update(sno,username,age,address,course,duration):
+    data=read_json()
+    name=username
+    for stud in data["students"]:
+        if stud["sno"]==sno:
+            name=stud["name"]
+            stud["name"]=username
+            stud["age"]=age
+            stud["add"]=address
+            stud["course"]=course
+            stud["duration"]=duration
+            
+    write_json(data)
+    return name
+        
+    
                     
                 
         

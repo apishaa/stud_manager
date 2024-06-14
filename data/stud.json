@@ -3,14 +3,14 @@
       {
          "sno": 1,
          "name": "apishaa",
-         "age": "18",
+         "age": "19",
          "add": "tuty",
          "course": "python",
          "duration": "2 months"
       },
       {
          "sno": 2,
-         "name": "sam",
+         "name": "samson",
          "age": "21",
          "add": "chennai",
          "course": "tally",
@@ -18,15 +18,7 @@
       },
       {
          "sno": 3,
-         "name": "karish",
-         "age": "19",
-         "add": "tuty",
-         "course": "web design",
-         "duration": "2 months"
-      },
-      {
-         "sno": 4,
-         "name": "apishaa",
+         "name": "karis",
          "age": "18",
          "add": "tuty",
          "course": "tally",
