@@ -7,7 +7,7 @@ def home():
     msg=""
     if request.method=="POST":
         msg=request.form["username"]
-        # print(request.form["username"])
+         
         # print(request.form["age"])
         # print(request.form["add"])
         # print(request.form["course"])
